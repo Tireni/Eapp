@@ -1,11 +1,11 @@
 @echo off
 break off
-title  prompt
+title  Eprompt
 color 0a
 cls
 
 :cmd
-set /p cmd=yourcommand:
+set /p cmd=Ecommand:
 
 %cmd%
 echo.
